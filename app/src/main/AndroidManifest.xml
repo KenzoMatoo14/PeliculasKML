@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeliculasKML">
         <activity
-            android:name=".Detalles"
+            android:name=".Detalle"
+            android:launchMode="singleInstance"
             android:exported="false" />
         <activity
             android:name=".Agregar"
+            android:launchMode="singleInstance"
             android:exported="false" />
         <activity
             android:name=".Home"
+            android:launchMode="singleInstance"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
